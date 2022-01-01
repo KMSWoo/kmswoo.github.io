@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git创建标签</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" type="image/png" href="/favicons/favicon.png">
+    <link rel="stylesheet" href="https://fonts.font.im/css?family=Lobster|Satisfy">
+    <link rel="preload" crossorigin="anonymous" href="//at.alicdn.com/t/font_2949371_6nhphjuvnzc.woff2" as="font" type="font/woff2">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2949371_6nhphjuvnzc.css">
+    <link rel="preload" crossorigin="anonymous" href="//at.alicdn.com/t/font_2953551_u612koyhj6.woff2" as="font" type="font/woff2">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2953551_u612koyhj6.css">
+    <script charset="utf-8" src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async="true"></script>
+    <meta name="description" content="Just for fun!">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <link rel="preload" href="/assets/css/0.styles.709f0a23.css" as="style"><link rel="preload" href="/assets/js/app.f6b2750d.js" as="script"><link rel="preload" href="/assets/js/6.992087fc.js" as="script"><link rel="preload" href="/assets/js/1.bd8257ab.js" as="script"><link rel="preload" href="/assets/js/32.8eebdde2.js" as="script"><link rel="prefetch" href="/assets/js/10.a4ac7942.js"><link rel="prefetch" href="/assets/js/100.334f7041.js"><link rel="prefetch" href="/assets/js/101.fbd706a6.js"><link rel="prefetch" href="/assets/js/102.928bd9cf.js"><link rel="prefetch" href="/assets/js/103.0e507560.js"><link rel="prefetch" href="/assets/js/104.677d6026.js"><link rel="prefetch" href="/assets/js/11.a88e960f.js"><link rel="prefetch" href="/assets/js/12.82f24d68.js"><link rel="prefetch" href="/assets/js/13.aa0330ff.js"><link rel="prefetch" href="/assets/js/14.c5724fbc.js"><link rel="prefetch" href="/assets/js/15.c41a9191.js"><link rel="prefetch" href="/assets/js/16.b14c2bfe.js"><link rel="prefetch" href="/assets/js/17.6bd551a7.js"><link rel="prefetch" href="/assets/js/18.4f1f5177.js"><link rel="prefetch" href="/assets/js/19.f06a202c.js"><link rel="prefetch" href="/assets/js/20.907e26c8.js"><link rel="prefetch" href="/assets/js/21.dfdb6fc0.js"><link rel="prefetch" href="/assets/js/22.3c22b8fb.js"><link rel="prefetch" href="/assets/js/23.ba3747ff.js"><link rel="prefetch" href="/assets/js/24.07436c85.js"><link rel="prefetch" href="/assets/js/25.f117c5b2.js"><link rel="prefetch" href="/assets/js/26.fd9683ac.js"><link rel="prefetch" href="/assets/js/27.90ad260b.js"><link rel="prefetch" href="/assets/js/28.e5a99905.js"><link rel="prefetch" href="/assets/js/29.7f97fe08.js"><link rel="prefetch" href="/assets/js/3.6131e7eb.js"><link rel="prefetch" href="/assets/js/30.c5ed064d.js"><link rel="prefetch" href="/assets/js/31.c461afd1.js"><link rel="prefetch" href="/assets/js/33.03d4eff8.js"><link rel="prefetch" href="/assets/js/34.3928d533.js"><link rel="prefetch" href="/assets/js/35.ef8efb45.js"><link rel="prefetch" href="/assets/js/36.83819fce.js"><link rel="prefetch" href="/assets/js/37.6d59eda5.js"><link rel="prefetch" href="/assets/js/38.a4afb281.js"><link rel="prefetch" href="/assets/js/39.43918783.js"><link rel="prefetch" href="/assets/js/4.b19c5430.js"><link rel="prefetch" href="/assets/js/40.d580eb3a.js"><link rel="prefetch" href="/assets/js/41.b577c732.js"><link rel="prefetch" href="/assets/js/42.981612e9.js"><link rel="prefetch" href="/assets/js/43.2885ecf0.js"><link rel="prefetch" href="/assets/js/44.22787400.js"><link rel="prefetch" href="/assets/js/45.7723d406.js"><link rel="prefetch" href="/assets/js/46.d928e9cd.js"><link rel="prefetch" href="/assets/js/47.f85996d5.js"><link rel="prefetch" href="/assets/js/48.6c8717ee.js"><link rel="prefetch" href="/assets/js/49.3c5e8dd4.js"><link rel="prefetch" href="/assets/js/5.2622ab97.js"><link rel="prefetch" href="/assets/js/50.92a73ca7.js"><link rel="prefetch" href="/assets/js/51.80a48043.js"><link rel="prefetch" href="/assets/js/52.c9bf257c.js"><link rel="prefetch" href="/assets/js/53.018ac1d8.js"><link rel="prefetch" href="/assets/js/54.a89e7420.js"><link rel="prefetch" href="/assets/js/55.d3aaddea.js"><link rel="prefetch" href="/assets/js/56.e9a7f02b.js"><link rel="prefetch" href="/assets/js/57.3f40c7b1.js"><link rel="prefetch" href="/assets/js/58.ad13bdb8.js"><link rel="prefetch" href="/assets/js/59.e269e085.js"><link rel="prefetch" href="/assets/js/60.0e9131e2.js"><link rel="prefetch" href="/assets/js/61.cc482820.js"><link rel="prefetch" href="/assets/js/62.a2e07666.js"><link rel="prefetch" href="/assets/js/63.7ddbd27f.js"><link rel="prefetch" href="/assets/js/64.01d97934.js"><link rel="prefetch" href="/assets/js/65.ec223303.js"><link rel="prefetch" href="/assets/js/66.1e481a1f.js"><link rel="prefetch" href="/assets/js/67.464c9e1a.js"><link rel="prefetch" href="/assets/js/68.de1774cb.js"><link rel="prefetch" href="/assets/js/69.b9d57c0d.js"><link rel="prefetch" href="/assets/js/7.74b5cc39.js"><link rel="prefetch" href="/assets/js/70.3711e0ce.js"><link rel="prefetch" href="/assets/js/71.767e8f35.js"><link rel="prefetch" href="/assets/js/72.a53a1b45.js"><link rel="prefetch" href="/assets/js/73.bee69c94.js"><link rel="prefetch" href="/assets/js/74.7a7adeff.js"><link rel="prefetch" href="/assets/js/75.6c3a8090.js"><link rel="prefetch" href="/assets/js/76.d1ae5729.js"><link rel="prefetch" href="/assets/js/77.5c3a3781.js"><link rel="prefetch" href="/assets/js/78.00f78c3d.js"><link rel="prefetch" href="/assets/js/79.7411c161.js"><link rel="prefetch" href="/assets/js/8.3a17ca06.js"><link rel="prefetch" href="/assets/js/80.e68cc1e1.js"><link rel="prefetch" href="/assets/js/81.f6a47abe.js"><link rel="prefetch" href="/assets/js/82.3be4b911.js"><link rel="prefetch" href="/assets/js/83.a6f2eb0b.js"><link rel="prefetch" href="/assets/js/84.50cf6623.js"><link rel="prefetch" href="/assets/js/85.e398d0f1.js"><link rel="prefetch" href="/assets/js/86.c4379b40.js"><link rel="prefetch" href="/assets/js/87.d388ea25.js"><link rel="prefetch" href="/assets/js/88.a27b91e6.js"><link rel="prefetch" href="/assets/js/89.4bfb06f1.js"><link rel="prefetch" href="/assets/js/9.9dcd8d7c.js"><link rel="prefetch" href="/assets/js/90.a020fc84.js"><link rel="prefetch" href="/assets/js/91.f8555e11.js"><link rel="prefetch" href="/assets/js/92.c390150d.js"><link rel="prefetch" href="/assets/js/93.3d51d66e.js"><link rel="prefetch" href="/assets/js/94.583e865f.js"><link rel="prefetch" href="/assets/js/95.a3c88640.js"><link rel="prefetch" href="/assets/js/96.2f0f983e.js"><link rel="prefetch" href="/assets/js/97.dfd7a5e2.js"><link rel="prefetch" href="/assets/js/98.8c9c7dd6.js"><link rel="prefetch" href="/assets/js/99.c4482f1c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.709f0a23.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="animate__animated animate__fadeIn animate__slow container"><div class="header-wrap" data-v-bc840c6a><div class="header page" data-v-bc840c6a><div class="left" data-v-bc840c6a><div class="head-title" data-v-bc840c6a></div> <div class="nav" data-v-bc840c6a></div></div> <div class="right" data-v-bc840c6a><div class="search-box" data-v-bc840c6a><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></div> <div class="page post-page"><div class="title"><div class="post-title">Git创建标签</div></div> <div class="info"><div class="tags"><a class="tag" data-v-5095c9bc>git</a></div> <div class="author">KMS Woo</div> <div class="date">2021-11-5</div> <div class="count" style="display:;"><span id="busuanzi_value_page_pv"></span> <span>views</span></div></div> <div class="post-content"><div class="content__default"><p>Git的标签是一个既简单又非常实用的功能。</p> <p>在Git中打标签非常简单，首先，切换到需要打标签的分支上：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> branch
+* dev
+  master
+$ <span class="token function">git</span> checkout master
+Switched to branch <span class="token string">'master'</span>
+</code></pre></div><p>然后，敲命令<code>git tag &lt;name&gt;</code>就可以打一个新标签：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> tag v1.0
+</code></pre></div><p>可以用命令<code>git tag</code>查看所有标签：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> tag
+v1.0
+</code></pre></div><p>默认标签是打在最新提交的commit上的。有时候，如果忘了打标签，比如，现在已经是周五了，但应该在周一打的标签没有打，怎么办？</p> <p>方法是找到历史提交的commit id，然后打上就可以了：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> log --pretty<span class="token operator">=</span>oneline --abbrev-commit
+12a631b <span class="token punctuation">(</span>HEAD -<span class="token operator">&gt;</span> master, tag: v1.0, origin/master<span class="token punctuation">)</span> merged bug fix <span class="token number">101</span>
+4c805e2 fix bug <span class="token number">101</span>
+e1e9c68 merge with no-ff
+f52c633 <span class="token function">add</span> merge
+cf810e4 conflict fixed
+5dc6824 <span class="token operator">&amp;</span> simple
+14096d0 AND simple
+b17d20e branch <span class="token builtin class-name">test</span>
+d46f35e remove test.txt
+b84166e <span class="token function">add</span> test.txt
+519219b <span class="token function">git</span> tracks changes
+e43a48b understand how stage works
+1094adb append GPL
+e475afc <span class="token function">add</span> distributed
+eaadf4e wrote a readme <span class="token function">file</span>
+</code></pre></div><p>比方说要对<code>add merge</code>这次提交打标签，它对应的commit id是<code>f52c633</code>，敲入命令：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> tag v0.9 f52c633
+</code></pre></div><p>再用命令<code>git tag</code>查看标签：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> tag
+v0.9
+v1.0
+</code></pre></div><p>注意，标签不是按时间顺序列出，而是按字母排序的。可以用<code>git show &lt;tagname&gt;</code>查看标签信息：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> show v0.9
+commit f52c63349bc3c1593499807e5c8e972b82c8f286 <span class="token punctuation">(</span>tag: v0.9<span class="token punctuation">)</span>
+Author: Michael Liao <span class="token operator">&lt;</span>ackmmy@gmail.com<span class="token operator">&gt;</span>
+Date:   Fri May <span class="token number">18</span> <span class="token number">21</span>:56:54 <span class="token number">2018</span> +0800
+
+    <span class="token function">add</span> merge
+
+<span class="token function">diff</span> --git a/readme.txt b/readme.txt
+<span class="token punctuation">..</span>.
+</code></pre></div><p>可以看到，<code>v0.9</code>确实打在<code>add merge</code>这次提交上。</p> <p>还可以创建带有说明的标签，用<code>-a</code>指定标签名，<code>-m</code>指定说明文字：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> tag -a v0.1 -m <span class="token string">&quot;version 0.1 released&quot;</span> 1094adb
+</code></pre></div><p>用命令<code>git show &lt;tagname&gt;</code>可以看到说明文字：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> show v0.1
+tag v0.1
+Tagger: Michael Liao <span class="token operator">&lt;</span>ackmmy@gmail.com<span class="token operator">&gt;</span>
+Date:   Fri May <span class="token number">18</span> <span class="token number">22</span>:48:43 <span class="token number">2018</span> +0800
+
+version <span class="token number">0.1</span> released
+
+commit 1094adb7b9b3807259d8cb349e7df1d4d6477073 <span class="token punctuation">(</span>tag: v0.1<span class="token punctuation">)</span>
+Author: Michael Liao <span class="token operator">&lt;</span>ackmmy@gmail.com<span class="token operator">&gt;</span>
+Date:   Fri May <span class="token number">18</span> <span class="token number">21</span>:06:15 <span class="token number">2018</span> +0800
+
+    append GPL
+
+<span class="token function">diff</span> --git a/readme.txt b/readme.txt
+<span class="token punctuation">..</span>.
+</code></pre></div><p><strong>注意</strong>：标签总是和某个commit挂钩。如果这个commit既出现在master分支，又出现在dev分支，那么在这两个分支上都可以看到这个标签。</p> <hr></div></div></div> <div class="footer-wrap" data-v-e2e64d12><div class="footer page" data-v-e2e64d12><div class="count" data-v-e2e64d12>
+      本站总访问量<span id="busuanzi_value_site_pv" data-v-e2e64d12></span>次
+      本站访客数<span id="busuanzi_value_site_uv" data-v-e2e64d12></span>人次
+      本文总阅读量<span id="busuanzi_value_page_pv" data-v-e2e64d12></span>次
+    </div> <div class="link" data-v-e2e64d12><a href="http://www.aaronsw.com/" target="_blank" data-v-e2e64d12>Aaron Swartz</a><a href="https://www.cnblogs.com/rubylouvre/" target="_blank" data-v-e2e64d12>司徒正美</a></div> <div class="contact" data-v-e2e64d12><a href="https://github.com/KMSWoo" target="_blank" data-v-e2e64d12><span class="iconfont icon-github" data-v-e2e64d12></span></a> <a href="mailto:wayneincode@gmail.com" data-v-e2e64d12><span class="iconfont icon-youjian" data-v-e2e64d12></span></a></div></div></div></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.f6b2750d.js" defer></script><script src="/assets/js/6.992087fc.js" defer></script><script src="/assets/js/1.bd8257ab.js" defer></script><script src="/assets/js/32.8eebdde2.js" defer></script>
+  </body>
+</html>

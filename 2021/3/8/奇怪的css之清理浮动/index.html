@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>奇怪的CSS之清理浮动</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" type="image/png" href="/favicons/favicon.png">
+    <link rel="stylesheet" href="https://fonts.font.im/css?family=Lobster|Satisfy">
+    <link rel="preload" crossorigin="anonymous" href="//at.alicdn.com/t/font_2949371_6nhphjuvnzc.woff2" as="font" type="font/woff2">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2949371_6nhphjuvnzc.css">
+    <link rel="preload" crossorigin="anonymous" href="//at.alicdn.com/t/font_2953551_u612koyhj6.woff2" as="font" type="font/woff2">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2953551_u612koyhj6.css">
+    <script charset="utf-8" src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async="true"></script>
+    <meta name="description" content="Just for fun!">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <link rel="preload" href="/assets/css/0.styles.709f0a23.css" as="style"><link rel="preload" href="/assets/js/app.f6b2750d.js" as="script"><link rel="preload" href="/assets/js/6.992087fc.js" as="script"><link rel="preload" href="/assets/js/1.bd8257ab.js" as="script"><link rel="preload" href="/assets/js/21.dfdb6fc0.js" as="script"><link rel="prefetch" href="/assets/js/10.a4ac7942.js"><link rel="prefetch" href="/assets/js/100.334f7041.js"><link rel="prefetch" href="/assets/js/101.fbd706a6.js"><link rel="prefetch" href="/assets/js/102.928bd9cf.js"><link rel="prefetch" href="/assets/js/103.0e507560.js"><link rel="prefetch" href="/assets/js/104.677d6026.js"><link rel="prefetch" href="/assets/js/11.a88e960f.js"><link rel="prefetch" href="/assets/js/12.82f24d68.js"><link rel="prefetch" href="/assets/js/13.aa0330ff.js"><link rel="prefetch" href="/assets/js/14.c5724fbc.js"><link rel="prefetch" href="/assets/js/15.c41a9191.js"><link rel="prefetch" href="/assets/js/16.b14c2bfe.js"><link rel="prefetch" href="/assets/js/17.6bd551a7.js"><link rel="prefetch" href="/assets/js/18.4f1f5177.js"><link rel="prefetch" href="/assets/js/19.f06a202c.js"><link rel="prefetch" href="/assets/js/20.907e26c8.js"><link rel="prefetch" href="/assets/js/22.3c22b8fb.js"><link rel="prefetch" href="/assets/js/23.ba3747ff.js"><link rel="prefetch" href="/assets/js/24.07436c85.js"><link rel="prefetch" href="/assets/js/25.f117c5b2.js"><link rel="prefetch" href="/assets/js/26.fd9683ac.js"><link rel="prefetch" href="/assets/js/27.90ad260b.js"><link rel="prefetch" href="/assets/js/28.e5a99905.js"><link rel="prefetch" href="/assets/js/29.7f97fe08.js"><link rel="prefetch" href="/assets/js/3.6131e7eb.js"><link rel="prefetch" href="/assets/js/30.c5ed064d.js"><link rel="prefetch" href="/assets/js/31.c461afd1.js"><link rel="prefetch" href="/assets/js/32.8eebdde2.js"><link rel="prefetch" href="/assets/js/33.03d4eff8.js"><link rel="prefetch" href="/assets/js/34.3928d533.js"><link rel="prefetch" href="/assets/js/35.ef8efb45.js"><link rel="prefetch" href="/assets/js/36.83819fce.js"><link rel="prefetch" href="/assets/js/37.6d59eda5.js"><link rel="prefetch" href="/assets/js/38.a4afb281.js"><link rel="prefetch" href="/assets/js/39.43918783.js"><link rel="prefetch" href="/assets/js/4.b19c5430.js"><link rel="prefetch" href="/assets/js/40.d580eb3a.js"><link rel="prefetch" href="/assets/js/41.b577c732.js"><link rel="prefetch" href="/assets/js/42.981612e9.js"><link rel="prefetch" href="/assets/js/43.2885ecf0.js"><link rel="prefetch" href="/assets/js/44.22787400.js"><link rel="prefetch" href="/assets/js/45.7723d406.js"><link rel="prefetch" href="/assets/js/46.d928e9cd.js"><link rel="prefetch" href="/assets/js/47.f85996d5.js"><link rel="prefetch" href="/assets/js/48.6c8717ee.js"><link rel="prefetch" href="/assets/js/49.3c5e8dd4.js"><link rel="prefetch" href="/assets/js/5.2622ab97.js"><link rel="prefetch" href="/assets/js/50.92a73ca7.js"><link rel="prefetch" href="/assets/js/51.80a48043.js"><link rel="prefetch" href="/assets/js/52.c9bf257c.js"><link rel="prefetch" href="/assets/js/53.018ac1d8.js"><link rel="prefetch" href="/assets/js/54.a89e7420.js"><link rel="prefetch" href="/assets/js/55.d3aaddea.js"><link rel="prefetch" href="/assets/js/56.e9a7f02b.js"><link rel="prefetch" href="/assets/js/57.3f40c7b1.js"><link rel="prefetch" href="/assets/js/58.ad13bdb8.js"><link rel="prefetch" href="/assets/js/59.e269e085.js"><link rel="prefetch" href="/assets/js/60.0e9131e2.js"><link rel="prefetch" href="/assets/js/61.cc482820.js"><link rel="prefetch" href="/assets/js/62.a2e07666.js"><link rel="prefetch" href="/assets/js/63.7ddbd27f.js"><link rel="prefetch" href="/assets/js/64.01d97934.js"><link rel="prefetch" href="/assets/js/65.ec223303.js"><link rel="prefetch" href="/assets/js/66.1e481a1f.js"><link rel="prefetch" href="/assets/js/67.464c9e1a.js"><link rel="prefetch" href="/assets/js/68.de1774cb.js"><link rel="prefetch" href="/assets/js/69.b9d57c0d.js"><link rel="prefetch" href="/assets/js/7.74b5cc39.js"><link rel="prefetch" href="/assets/js/70.3711e0ce.js"><link rel="prefetch" href="/assets/js/71.767e8f35.js"><link rel="prefetch" href="/assets/js/72.a53a1b45.js"><link rel="prefetch" href="/assets/js/73.bee69c94.js"><link rel="prefetch" href="/assets/js/74.7a7adeff.js"><link rel="prefetch" href="/assets/js/75.6c3a8090.js"><link rel="prefetch" href="/assets/js/76.d1ae5729.js"><link rel="prefetch" href="/assets/js/77.5c3a3781.js"><link rel="prefetch" href="/assets/js/78.00f78c3d.js"><link rel="prefetch" href="/assets/js/79.7411c161.js"><link rel="prefetch" href="/assets/js/8.3a17ca06.js"><link rel="prefetch" href="/assets/js/80.e68cc1e1.js"><link rel="prefetch" href="/assets/js/81.f6a47abe.js"><link rel="prefetch" href="/assets/js/82.3be4b911.js"><link rel="prefetch" href="/assets/js/83.a6f2eb0b.js"><link rel="prefetch" href="/assets/js/84.50cf6623.js"><link rel="prefetch" href="/assets/js/85.e398d0f1.js"><link rel="prefetch" href="/assets/js/86.c4379b40.js"><link rel="prefetch" href="/assets/js/87.d388ea25.js"><link rel="prefetch" href="/assets/js/88.a27b91e6.js"><link rel="prefetch" href="/assets/js/89.4bfb06f1.js"><link rel="prefetch" href="/assets/js/9.9dcd8d7c.js"><link rel="prefetch" href="/assets/js/90.a020fc84.js"><link rel="prefetch" href="/assets/js/91.f8555e11.js"><link rel="prefetch" href="/assets/js/92.c390150d.js"><link rel="prefetch" href="/assets/js/93.3d51d66e.js"><link rel="prefetch" href="/assets/js/94.583e865f.js"><link rel="prefetch" href="/assets/js/95.a3c88640.js"><link rel="prefetch" href="/assets/js/96.2f0f983e.js"><link rel="prefetch" href="/assets/js/97.dfd7a5e2.js"><link rel="prefetch" href="/assets/js/98.8c9c7dd6.js"><link rel="prefetch" href="/assets/js/99.c4482f1c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.709f0a23.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="animate__animated animate__fadeIn animate__slow container"><div class="header-wrap" data-v-bc840c6a><div class="header page" data-v-bc840c6a><div class="left" data-v-bc840c6a><div class="head-title" data-v-bc840c6a></div> <div class="nav" data-v-bc840c6a></div></div> <div class="right" data-v-bc840c6a><div class="search-box" data-v-bc840c6a><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></div> <div class="page post-page"><div class="title"><div class="post-title">奇怪的CSS之清理浮动</div></div> <div class="info"><div class="tags"><a class="tag" data-v-5095c9bc>CSS</a></div> <div class="author">KMS Woo</div> <div class="date">2021-3-8</div> <div class="count" style="display:;"><span id="busuanzi_value_page_pv"></span> <span>views</span></div></div> <div class="post-content"><div class="content__default"><p>希望前端狗都不需要再清理浮动。</p> <h2 id="什么是css清除浮动"><a href="#什么是css清除浮动" class="header-anchor">#</a> 什么是CSS清除浮动？</h2> <blockquote><p>在非IE浏览器（如Firefox）下，当容器的高度为auto，且容器的内容中有浮动（float为left或right）的元素，在这种情况下，容器的高度不能自动伸长以适应内容的高度，使得内容溢出到容器外面而影响（甚至破坏）布局的现象。这个现象叫浮动溢出，为了防止这个现象的出现而进行的CSS处理，就叫CSS清除浮动。</p></blockquote> <p><strong>引用W3C的例子，news容器没有包围浮动的元素。</strong></p> <div class="language-stylus extra-class"><pre class="language-stylus"><code><span class="token selector">.news <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token color">gray</span><span class="token punctuation">;</span></span>
+  <span class="token property-declaration"><span class="token property">border</span><span class="token punctuation">:</span> solid <span class="token number">1</span><span class="token unit">px</span> <span class="token color">black</span><span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news img <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news p <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+&lt;div class=<span class="token string">&quot;news&quot;</span>&gt;
+&lt;img src=<span class="token string">&quot;news-pic.jpg&quot;</span> /&gt;
+&lt;p&gt;some text&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div><p><img src="http://images.cnitblog.com/blog/349636/201310/23224343-9668661a8f63445699e0a8c24a64662b.jpg" alt="图片">;</p> <h2 id="清除浮动方法"><a href="#清除浮动方法" class="header-anchor">#</a> 清除浮动方法</h2> <p><strong>方法一：使用带clear属性的空元素</strong></p> <p>在浮动元素后使用一个空元素如<code>&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;</code>，并在CSS中赋予<code>.clear{clear:both;}</code>属性即可清理浮动。亦可使用<code>&lt;br class=&quot;clear&quot; /&gt;或&lt;hr class=&quot;clear&quot; /&gt;</code>来进行清理。</p> <div class="language-stylus extra-class"><pre class="language-stylus"><code><span class="token selector">.news <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token color">gray</span><span class="token punctuation">;</span></span>
+  <span class="token property-declaration"><span class="token property">border</span><span class="token punctuation">:</span> solid <span class="token number">1</span><span class="token unit">px</span> <span class="token color">black</span><span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news img <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news p <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.clear <span class="token punctuation">{</span></span>
+  <span class="token property-declaration"><span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span></span>
+  <span class="token punctuation">}</span>
+
+&lt;div class=<span class="token string">&quot;news&quot;</span>&gt;
+&lt;img src=<span class="token string">&quot;news-pic.jpg&quot;</span> /&gt;
+&lt;p&gt;some text&lt;/p&gt;
+&lt;div class=<span class="token string">&quot;clear&quot;</span>&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><p><strong>优点：简单，代码少，浏览器兼容性好。</strong> <strong>缺点：需要添加大量无语义的html元素，代码不够优雅，后期不容易维护。</strong></p> <p><strong>方法二：使用CSS的overflow属性</strong></p> <p>给浮动元素的容器添加<code>overflow:hidden;</code>或<code>overflow:auto;</code>可以清除浮动，另外在 IE6 中还需要触发 hasLayout ，例如为父元素设置容器宽高或设置 zoom:1。在添加overflow属性后，浮动元素又回到了容器层，把容器高度撑起，达到了清理浮动的效果。</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.news</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> gray<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> solid 1px black<span class="token punctuation">;</span>
+  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+  *<span class="token property">zoom</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news img</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news p</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+&lt;div class=<span class="token string">&quot;news&quot;</span>&gt;
+&lt;img src=<span class="token string">&quot;news-pic.jpg&quot;</span> /&gt;
+&lt;p&gt;some text&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div><p><strong>方法三：给浮动的元素的容器添加浮动</strong></p> <p>给浮动元素的容器也添加上浮动属性即可清除内部浮动，但是这样会使其整体浮动，影响布局，不推荐使用。</p> <p><strong>方法四：使用邻接元素处理</strong></p> <p>什么都不做，给浮动元素后面的元素添加clear属性。</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.news</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> gray<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> solid 1px black<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news img</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news p</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.content</span><span class="token punctuation">{</span>
+  <span class="token property">clear</span><span class="token punctuation">:</span>both<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+&lt;div class=<span class="token string">&quot;news&quot;</span>&gt;
+&lt;img src=<span class="token string">&quot;news-pic.jpg&quot;</span> /&gt;
+&lt;p&gt;some text&lt;/p&gt;
+&lt;div class=<span class="token string">&quot;content&quot;</span>&gt;***&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><p>注意这里的div.content有内容。</p> <p><strong>方法五：使用CSS的:after伪元素</strong></p> <p>结合 :after 伪元素（注意这不是伪类，而是伪元素，代表一个元素之后最近的元素）和 IEhack ，可以完美兼容当前主流的各大浏览器，这里的 IEhack 指的是触发 hasLayout。
+给浮动元素的容器添加一个clearfix的class，然后给这个class添加一个:after伪元素实现元素末尾添加一个看不见的块元素（Block element）清理浮动。</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.news</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> gray<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> solid 1px black<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news img</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.news p</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.clearfix:after</span><span class="token punctuation">{</span>
+  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;020&quot;</span><span class="token punctuation">;</span> 
+  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span> 
+  <span class="token property">height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> 
+  <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span> 
+  <span class="token property">visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>  
+  <span class="token punctuation">}</span>
+
+<span class="token selector">.clearfix</span> <span class="token punctuation">{</span>
+  <span class="token comment">/* 触发 hasLayout */</span> 
+  <span class="token property">zoom</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span> 
+  <span class="token punctuation">}</span>
+
+&lt;div class=<span class="token string">&quot;news clearfix&quot;</span>&gt;
+&lt;img src=<span class="token string">&quot;news-pic.jpg&quot;</span> /&gt;
+&lt;p&gt;some text&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div><p>通过CSS伪元素在容器的内部元素最后添加了一个看不见的空格&quot;020&quot;或点&quot;.&quot;，并且赋予clear属性来清除浮动。需要注意的是为了IE6和IE7浏览器，要给clearfix这个class添加一条zoom:1;触发haslayout。</p> <h2 id="总结"><a href="#总结" class="header-anchor">#</a> 总结</h2> <p>通过上面的例子，我们不难发现清除浮动的方法可以分成两类：</p> <p>一是利用 clear 属性，包括在浮动元素末尾添加一个带有 clear: both 属性的空 div 来闭合元素，其实利用 :after 伪元素的方法也是在元素末尾添加一个内容为一个点并带有 clear: both 属性的元素实现的。</p> <p>二是触发浮动元素父元素的 BFC (Block Formatting Contexts, 块级格式化上下文)，使到该父元素可以包含浮动元素，关于这一点。</p> <p>在网页主要布局时使用:after伪元素方法并作为主要清理浮动方式；在小模块如ul里使用overflow:hidden;（留意可能产生的隐藏溢出元素问题）；如果本身就是浮动元素则可自动清除内部浮动，无需格外处理；正文中使用邻接元素清理之前的浮动。</p> <p>最后可以使用相对完美的:after伪元素方法清理浮动，文档结构更加清晰。</p> <hr></div></div></div> <div class="footer-wrap" data-v-e2e64d12><div class="footer page" data-v-e2e64d12><div class="count" data-v-e2e64d12>
+      本站总访问量<span id="busuanzi_value_site_pv" data-v-e2e64d12></span>次
+      本站访客数<span id="busuanzi_value_site_uv" data-v-e2e64d12></span>人次
+      本文总阅读量<span id="busuanzi_value_page_pv" data-v-e2e64d12></span>次
+    </div> <div class="link" data-v-e2e64d12><a href="http://www.aaronsw.com/" target="_blank" data-v-e2e64d12>Aaron Swartz</a><a href="https://www.cnblogs.com/rubylouvre/" target="_blank" data-v-e2e64d12>司徒正美</a></div> <div class="contact" data-v-e2e64d12><a href="https://github.com/KMSWoo" target="_blank" data-v-e2e64d12><span class="iconfont icon-github" data-v-e2e64d12></span></a> <a href="mailto:wayneincode@gmail.com" data-v-e2e64d12><span class="iconfont icon-youjian" data-v-e2e64d12></span></a></div></div></div></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.f6b2750d.js" defer></script><script src="/assets/js/6.992087fc.js" defer></script><script src="/assets/js/1.bd8257ab.js" defer></script><script src="/assets/js/21.dfdb6fc0.js" defer></script>
+  </body>
+</html>
